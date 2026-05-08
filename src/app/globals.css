@@ -1,26 +1,66 @@
 @import "tailwindcss";
 
+@theme {
+  /* Palette Braise */
+  --color-accent: #ff4500;
+  --color-accent-hover: #e03c00;
+  --color-bg: #f5f0e8;
+  --color-surface: #fafaf7;
+  --color-ink: #0a0a0a;
+  --color-border: #000000;
+  --color-muted: #6b6560;
+
+  /* Fonts */
+  --font-display: var(--font-fraunces);
+  --font-mono: var(--font-jetbrains);
+
+  /* Hard shadows — signature brutaliste */
+  --shadow-hard: 4px 4px 0px #000000;
+  --shadow-hard-lg: 6px 6px 0px #000000;
+  --shadow-hard-xl: 8px 8px 0px #000000;
+  --shadow-hard-accent: 4px 4px 0px #ff4500;
+
+  /* Borders */
+  --border-heavy: 2px solid #000000;
+  --border-heavy-3: 3px solid #000000;
+
+  /* Spacing overrides */
+  --spacing-18: 4.5rem;
+  --spacing-22: 5.5rem;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  background-color: var(--color-bg);
+  color: var(--color-ink);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-mono), "JetBrains Mono", monospace;
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Selection accent */
+::selection {
+  background-color: var(--color-accent);
+  color: #ffffff;
+}
+
+/* Scrollbar minimal */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-ink);
+}
+
+/* Focus outline brutaliste */
+*:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
 }
