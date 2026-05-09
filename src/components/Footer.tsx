@@ -18,7 +18,7 @@ export function Footer() {
         <nav>
           <ul className="flex items-center gap-4">
             {[
-              { href: "https://github.com/adamedouard", label: "GitHub" },
+              { href: "https://github.com/EdouardADM", label: "GitHub" },
               { href: "https://linkedin.com/in/adamedouard", label: "LinkedIn" },
               { href: "mailto:contact@adamedouard.be", label: "Email" },
             ].map(({ href, label }) => (

@@ -35,8 +35,8 @@ export default function CVPage() {
         </Link>
       </div>
 
-      {/* PDF viewer */}
-      <div className="border-2 border-ink shadow-hard-lg w-full" style={{ height: "85vh" }}>
+      {/* PDF viewer */}                                                                                                                                                                        
+      <div className="border-2 border-ink shadow-hard-lg w-full" style={{ height: "120vh" }}>
         <iframe
           src={`${CV_PATH}#toolbar=1&navpanes=0`}
           className="w-full h-full"

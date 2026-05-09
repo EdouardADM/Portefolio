@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
+import { HeroGreeting } from "@/components/HeroGreeting";
 import { ArrowRight, ExternalLink } from "lucide-react";
 
 /* ─── DATA ─────────────────────────────────────────────────────────── */
@@ -68,26 +69,11 @@ export default function HomePage() {
         <div className="max-w-4xl">
           {/* Eyebrow */}
           <p className="font-mono text-sm font-bold uppercase tracking-[0.2em] text-muted mb-6">
-            Développeur Backend · Étudiant EPHEC · Belgique
+            Développeur Full-Stack · Étudiant EPHEC · Belgique
           </p>
 
-          {/* Main heading */}
-          <h1
-            className="font-display font-black text-5xl sm:text-7xl lg:text-8xl leading-[0.95] tracking-tight mb-8"
-            style={{ fontVariationSettings: '"SOFT" 0, "WONK" 1' }}
-          >
-            Je construis des{" "}
-            <span className="text-accent relative inline-block">
-              outils
-              <span
-                className="absolute bottom-1 left-0 w-full h-[4px] bg-accent"
-                aria-hidden="true"
-              />
-            </span>{" "}
-            qui marchent
-            <br />
-            pour de vrai.
-          </h1>
+          {/* Main heading — dynamique selon l'heure */}
+          <HeroGreeting />
 
           {/* Sub */}
           <p className="font-mono text-base sm:text-lg text-muted max-w-2xl leading-relaxed mb-10">
@@ -322,7 +308,7 @@ export default function HomePage() {
               </Link>
               <div className="flex gap-3">
                 <Link
-                  href="https://github.com/adamedouard"
+                  href="https://github.com/EdouardADM"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1"
