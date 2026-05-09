@@ -11,7 +11,7 @@ export function Footer() {
             Edouard Adam
           </p>
           <p className="text-xs font-mono text-bg/60 mt-1">
-            Développeur backend · Belgique · {year}
+            Etudiant à l'EPHEC · Belgique · {year}
           </p>
         </div>
 
@@ -19,7 +19,7 @@ export function Footer() {
           <ul className="flex items-center gap-4">
             {[
               { href: "https://github.com/EdouardADM", label: "GitHub" },
-              { href: "https://linkedin.com/in/adamedouard", label: "LinkedIn" },
+              { href: "https://linkedin.com/in/édouard-adam", label: "LinkedIn" },
               { href: "mailto:edouardadam44@gmail.com", label: "Email" },
             ].map(({ href, label }) => (
               <li key={href}>
