@@ -15,30 +15,36 @@ const featuredProjects = [
     tags: ["React Native", "Expo", "Supabase", "PostGIS", "MapLibre"],
     description:
       "TFE — Système de critiques géolocalisées avec photos obligatoires et mécanisme anti-fake-reviews par Karma. Backend Postgres avancé, géofencing, cartographie interactive.",
-    status: "TFE 2025",
+    heuresValorisables: 0,
+    heuresReelles: 400,
     accent: true,
   },
   {
-    slug: "media-platform",
-    title: "Plateforme Média",
-    subtitle: "Microservices backend pour une plateforme media publique belge",
-    tags: ["Laravel", "Kubernetes", "OpenAPI", "PostgreSQL"],
+    slug: "ataya-partners",
+    title: "Ataya & Partners",
+    subtitle: "Stage en entreprise",
     description:
-      "Architecture microservices en production. Pagination cursor performante sur large dataset, packages partagés entre services, documentation OpenAPI.",
-    status: "En production",
-    accent: false,
+      "Stage chez Ataya & Partners. Première immersion professionnelle dans un contexte réel, développement de fonctionnalités et découverte des pratiques en équipe.",
+    tags: ["Stage", "Professionnel"],
+    status: "Terminé",
+    domaine: "Stage",
+    heuresValorisables: 10,
+    heuresReelles: 400,
   },
   {
-    slug: "coming-soon",
-    title: "???",
-    subtitle: "Prochain projet perso",
-    tags: ["À venir"],
+    slug: "build-pc",
+    title: "Build PC",
+    subtitle: "Montage de différents pc perso & pour la famille",
     description:
-      "Un projet en cours d'idéation. Quelque chose qui va relier mes intérêts pour la performance, les données et le monde réel.",
-    status: "WIP",
-    accent: false,
-  },
+      "Montage et optimisation d'un PC taillé pour le développement et le sim racing. Choix des composants, overclocking, gestion thermique — et Assetto Corsa Competizione à fond.",
+    tags: ["Hardware", "Perso", "Sim Racing"],
+    status: "Terminé",
+    domaine: "Perso",
+    heuresValorisables: 10,
+    heuresReelles: 20,
+  }
 ];
+
 
 const stackCategories = [
   {
@@ -75,11 +81,11 @@ export default function HomePage() {
           {/* Main heading — dynamique selon l'heure */}
           <HeroGreeting />
 
-          {/* Sub */}
+          {/* Sub — accroche */}
           <p className="font-mono text-base sm:text-lg text-muted max-w-2xl leading-relaxed mb-10">
-            Dev backend Laravel chez une plateforme média publique belge.
-            En train de finir mon TFE à l&apos;EPHEC : une app mobile de critiques
-            de restaurants avec un système anti-fake-reviews.
+            Je suis <strong className="text-ink">Edouard Adam</strong> — dev full-stack belge qui construit des systèmes qui tiennent la charge,
+            du microservice Laravel en production au TFE React Native.{" "}
+            <span className="text-ink">Parcourez ce portfolio : projets, compétences et parcours n&apos;attendent que vous.</span>
           </p>
 
           {/* CTAs */}
@@ -172,23 +178,40 @@ export default function HomePage() {
                 j&apos;ai construit.
               </h2>
             </div>
-            <Link
-              href="/projects/"
-              className="inline-flex items-center gap-2 font-mono text-sm font-bold uppercase tracking-widest text-muted hover:text-ink transition-colors shrink-0"
-            >
-              Tous les projets <ArrowRight size={14} />
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center shrink-0">
+              <Link
+                href="/projects/#recapitulatif"
+                className="inline-flex items-center gap-2 font-mono text-xs font-bold uppercase tracking-widest text-accent hover:underline underline-offset-4"
+              >
+                Récap des heures <ArrowRight size={12} />
+              </Link>
+              <Link
+                href="/projects/"
+                className="inline-flex items-center gap-2 font-mono text-sm font-bold uppercase tracking-widest text-muted hover:text-ink transition-colors"
+              >
+                Tous les projets <ArrowRight size={14} />
+              </Link>
+            </div>
           </div>
 
           {/* Cards grid — asymétrique */}
           <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr_1fr]">
             {featuredProjects.map((project, i) => (
               <Card key={project.slug} accent={project.accent} className="flex flex-col gap-4 bg-surface">
-                {/* Status badge */}
+                {/* Hours display */}
                 <div className="flex items-center justify-between">
-                  <Badge variant={project.accent ? "accent" : "outline"}>
-                    {project.status}
-                  </Badge>
+                  {project.heuresValorisables > 0 ? (
+                    <div className="flex flex-col leading-tight">
+                      <span className={`font-mono text-sm font-bold ${project.accent ? "text-accent" : "text-ink"}`}>
+                        {project.heuresValorisables}h valorisables
+                      </span>
+                      <span className="font-mono text-xs text-muted">
+                        {project.heuresReelles}h réelles
+                      </span>
+                    </div>
+                  ) : (
+                    <span className="font-mono text-xs text-muted italic">En cours…</span>
+                  )}
                   <span className="font-mono text-xs text-muted">
                     {String(i + 1).padStart(2, "0")}
                   </span>
@@ -227,7 +250,7 @@ export default function HomePage() {
                     href={`/projects/${project.slug}/`}
                     className="inline-flex items-center gap-2 font-mono text-xs font-bold uppercase tracking-widest text-accent hover:underline underline-offset-4 mt-2"
                   >
-                    Voir le case study <ExternalLink size={12} />
+                    Voir plus <ExternalLink size={12} />
                   </Link>
                 )}
               </Card>
