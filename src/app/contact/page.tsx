@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Contacter Edouard Adam — disponible pour CDI ou freelance.",
+  description: "Contacter Edouard Adam",
 };
 
 export default function ContactPage() {
@@ -22,10 +22,10 @@ export default function ContactPage() {
       <p className="font-mono text-base text-muted">
         Page en construction. En attendant :{" "}
         <a
-          href="mailto:contact@adamedouard.be"
+          href="mailto:edouardadam44@gmail.com"
           className="text-accent hover:underline underline-offset-4"
         >
-          contact@adamedouard.be
+          edouardadam44@gmail.com
         </a>
       </p>
     </section>

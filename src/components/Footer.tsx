@@ -20,7 +20,7 @@ export function Footer() {
             {[
               { href: "https://github.com/EdouardADM", label: "GitHub" },
               { href: "https://linkedin.com/in/adamedouard", label: "LinkedIn" },
-              { href: "mailto:contact@adamedouard.be", label: "Email" },
+              { href: "mailto:edouardadam44@gmail.com", label: "Email" },
             ].map(({ href, label }) => (
               <li key={href}>
                 <Link

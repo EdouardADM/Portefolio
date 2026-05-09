@@ -320,13 +320,13 @@ export default function HomePage() {
             </div>
 
             <div className="flex flex-col gap-4">
-              <Link href="mailto:contact@adamedouard.be">
+              <Link href="mailto:edouardadam44@gmail.com">
                 <Button
                   variant="primary"
                   size="lg"
                   className="w-full justify-center"
                 >
-                  contact@adamedouard.be
+                  edouardadam44@gmail.com
                 </Button>
               </Link>
               <div className="flex gap-3">
