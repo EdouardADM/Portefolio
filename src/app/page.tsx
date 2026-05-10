@@ -57,11 +57,11 @@ const stackCategories = [
   },
   {
     label: "Infra",
-    items: ["Docker", "Kubernetes", "Helm", "Supabase"],
+    items: ["Docker", "Kubernetes", "Supabase"],
   },
   {
     label: "Outils",
-    items: ["Git", "OpenAPI", "Cursor", "Claude Code"],
+    items: ["Git", "OpenAPI", "Jira", "Postman"],
   },
 ];
 
@@ -83,9 +83,9 @@ export default function HomePage() {
 
           {/* Sub — accroche */}
           <p className="font-mono text-base sm:text-lg text-muted max-w-2xl leading-relaxed mb-10">
-            Je suis <strong className="text-ink">Edouard Adam</strong> — dev full-stack belge qui construit des systèmes qui tiennent la charge,
-            du microservice Laravel en production au TFE React Native.{" "}
-            <span className="text-ink">Parcourez ce portfolio : projets, compétences et parcours n&apos;attendent que vous.</span>
+            Bienvenue, je m'appelle <strong className="text-ink">Edouard Adam</strong>, je suis étudiant en informatique à l'EPHEC. 
+            Ce portefolio a pour but de me présenter et de montrer mes différentes compétences, activitées et projets valorisable que j'ai réalisé tout au long de mes études. {" "}
+            <span className="text-ink">Parcourez ce portfolio : projets, compétences et parcours pour en apprendre plus sur moi ^^.</span>
           </p>
 
           {/* CTAs */}
@@ -128,23 +128,16 @@ export default function HomePage() {
             <div className="space-y-6 font-mono text-base leading-relaxed">
               <p>
                 Je m&apos;appelle <strong>Edouard Adam</strong>, j&apos;ai 22 ans et je suis basé en Belgique.
-                En journée, je travaille chez une{" "}
-                <strong>plateforme media publique belge</strong> sur une
-                architecture microservices Laravel en production — Kubernetes,
-                OpenAPI, packages partagés.
               </p>
               <p>
-                En parallèle, je termine mon bachelier en Informatique à
-                l&apos;<strong>EPHEC</strong> avec un TFE sur{" "}
+                Je termine mon bachelier en Informatique à
+                l&apos;<strong>EPHEC</strong> et réalise mon TFE sur{" "}
                 <strong>CritEat</strong> : une app mobile qui repense les
                 critiques de restaurants via un système de Karma et des photos
                 obligatoires pour lutter contre les faux avis.
               </p>
               <p>
-                En dehors du code, je fais du sim racing sur{" "}
-                <em>Assetto Corsa Competizione</em> avec un Tobii Eye Tracker.
-                La donnée, la performance, les systèmes qui fonctionnent sous
-                pression — c&apos;est ce qui m&apos;intéresse partout.
+                En dehors du code je fais différentes activitées comme du piano, de l'escalade, du sim racing et de temps en temps je pose pour différentes marques de luxe.
               </p>
 
               <div className="pt-2">
@@ -315,7 +308,7 @@ export default function HomePage() {
                 ensemble.
               </h2>
               <p className="font-mono text-base text-bg/70 max-w-lg leading-relaxed">
-                Disponible pour un CDI ou freelance après mes études. Je lis tous mes emails.
+                Disponible pour de nouveaux projets après mes études. Je lis tous mes emails.
               </p>
             </div>
 
@@ -341,7 +334,7 @@ export default function HomePage() {
                   </Button>
                 </Link>
                 <Link
-                  href="https://linkedin.com/in/adamedouard"
+                  href="https://linkedin.com/in/édouard-adam"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1"

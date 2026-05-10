@@ -49,7 +49,7 @@ const projects: Project[] = [
     title: "RTBF",
     subtitle: "Stage de fin d'étude à la RTBF",
     description:
-      "Architecture microservices Laravel en production. Pagination cursor sur large dataset, packages partagés entre services, documentation OpenAPI complète.",
+      "Architecture microservices Laravel. Pagination cursor sur large dataset, packages partagés entre services, documentation OpenAPI complète.",
     tags: ["Laravel", "Kubernetes", "OpenAPI", "PostgreSQL"],
     status: "En production",
     domaine: "Stage",
@@ -62,12 +62,12 @@ const projects: Project[] = [
     title: "Ataya & Partners",
     subtitle: "Stage en entreprise",
     description:
-      "Stage chez Ataya & Partners. Première immersion professionnelle dans un contexte réel, développement de fonctionnalités et découverte des pratiques en équipe.",
+      "Stage chez Ataya & Partners. Première immersion professionnelle dans un contexte réel, développement de fonctionnalités et découverte des pratiques en équipe. Spécialisation dans la nouvel directive NIS2",
     tags: ["Stage", "Professionnel"],
     status: "Terminé",
     domaine: "Stage",
     heuresValorisables: 10,
-    heuresReelles: 400,
+    heuresReelles: 350,
     hasPage: true,
   },
   {
@@ -75,8 +75,8 @@ const projects: Project[] = [
     title: "Conférences",
     subtitle: "Participations à différentes conférences",
     description:
-      "Conférences suivies et présentations réalisées dans le cadre de mes études à l'EPHEC et de ma vie professionnelle. Prise de parole, veille technologique, networking.",
-    tags: ["EPHEC", "Veille", "Soft skills"],
+      "Conférences suivies dans le cadre de ma vie professionnelle.",
+    tags: ["CCB", "Soft skills"],
     status: "Terminé",
     domaine: "Conférences",
     heuresValorisables: 10,
@@ -88,8 +88,8 @@ const projects: Project[] = [
     title: "Build PC",
     subtitle: "Montage de différents pc perso & pour la famille",
     description:
-      "Montage et optimisation d'un PC taillé pour le développement et le sim racing. Choix des composants, overclocking, gestion thermique — et Assetto Corsa Competizione à fond.",
-    tags: ["Hardware", "Perso", "Sim Racing"],
+      "Montage et optimisation de différents PC taillé pour le développement et/ou le gaming. Choix des composants et montage pour moi-même et membre de ma famille.",
+    tags: ["Hardware", "Perso"],
     status: "Terminé",
     domaine: "Perso",
     heuresValorisables: 10,
@@ -101,12 +101,12 @@ const projects: Project[] = [
     title: "Vendanges",
     subtitle: "Job d'été dans un domaine viticole",
     description:
-      "Participation aux vendanges — une pause physique et humaine loin des écrans. Travail d'équipe, rythme de la nature, et retour aux choses concrètes.",
-    tags: ["Expérience", "Perso"],
+      "Participation aux vendanges 2025 à Viviers, une pause physique et une expérience humaine loin des écrans. Travail d'équipe, rythme de la nature, et travail phisique.",
+    tags: ["Expérience", "Perso", "Job"],
     status: "Terminé",
     domaine: "Job",
     heuresValorisables: 10,
-    heuresReelles: 110,
+    heuresReelles: 90,
     hasPage: true,
   },
   {
@@ -119,7 +119,7 @@ const projects: Project[] = [
     status: "En cours",
     domaine: "Développement",
     heuresValorisables: 10,
-    heuresReelles: 30,
+    heuresReelles: 20,
     hasPage: true,
   },
   {
@@ -127,12 +127,12 @@ const projects: Project[] = [
     title: "Cours de néerlandais",
     subtitle: "Cours de langues en parallèle de mes études",
     description:
-      "Apprentissage du néerlandais en parallèle des études. Suivit entre septembre 2025 et janvier 2026 pour combler le temps libre.",
+      "Apprentissage du néerlandais en parallèle des études. Suivit entre septembre 2025 et janvier 2026 pour combler le temps libre à l'eafc Uccle.",
     tags: ["Langue", "Perso", "Belgique"],
     status: "Terminé",
     domaine: "Formation",
     heuresValorisables: 10,
-    heuresReelles: 240,
+    heuresReelles: 210,
     hasPage: true,
   },
   {
@@ -145,7 +145,7 @@ const projects: Project[] = [
     status: "Terminé",
     domaine: "Expérience",
     heuresValorisables: 10,
-    heuresReelles: 400,
+    heuresReelles: 200,
     hasPage: true,
   },
 ];

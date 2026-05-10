@@ -19,20 +19,20 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Edouard Adam — Développeur Backend",
+    default: "Edouard Adam — Etudiant à l'Ephec",
     template: "%s | Edouard Adam",
   },
   description:
-    "Développeur backend Laravel chez une plateforme media publique belge, étudiant à l'EPHEC. Je construis des outils qui marchent pour de vrai.",
+    "Etudiant à l'EPHEC en technologie de l'informatique.",
   metadataBase: new URL("https://adamedouard.be"),
   openGraph: {
     type: "website",
     locale: "fr_BE",
     url: "https://adamedouard.be",
     siteName: "Edouard Adam",
-    title: "Edouard Adam — Développeur Backend",
+    title: "Edouard Adam — Etudiant à l'Ephec",
     description:
-      "Développeur backend Laravel, étudiant à l'EPHEC. Portfolio de projets.",
+      "Etudiant à l'EPHEC en technologie de l'informatique. Portfolio de projets.",
   },
   twitter: {
     card: "summary_large_image",

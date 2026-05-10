@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "CV",
-  description: "CV d'Edouard Adam — développeur backend Laravel.",
+  description: "CV d'Edouard Adam — Etudiant à l'EPHEC en technologie de l'informatique.",
 };
 
 const CV_PATH = "/Edouard_Adam_CV.pdf";

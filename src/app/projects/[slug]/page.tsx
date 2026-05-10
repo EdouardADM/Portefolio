@@ -118,7 +118,7 @@ Ce que j'en retiens, c'est la valeur du travail concret et la satisfaction d'une
     domaine: "Développement",
     heuresValorisables: 10,
     heuresReelles: 30,
-    content: "",
+    content: "Pour la création de ce portefolio j'ai voulu creer une vittrine que me représente. Un dis",
     images: [],
   },
   "neerlandais": {
@@ -127,11 +127,11 @@ Ce que j'en retiens, c'est la valeur du travail concret et la satisfaction d'une
     domaine: "Formation",
     heuresValorisables: 10,
     heuresReelles: 240,
-    content: `J'ai suivi des cours de néerlandais entre septembre 2025 et janvier 2026, en parallèle de mes études et de mon stage à la RTBF. En Belgique, naviguer entre le français, le néerlandais et l'anglais n'est pas qu'un atout — c'est souvent une nécessité professionnelle.
+    content: `J'ai suivi des cours de néerlandais entre septembre 2025 et janvier 2026 à l'EAFC Uccle, en parallèle de mes études lors de mon premier semestre peu chargé. J'ai trouvé que c'était une activité intéressante à faire lors de mon temps libre et qui m'apporterait beaucoup au niveau social et professionnel.
 
-Les cours se déroulaient en groupe, avec des exercices de vocabulaire, de compréhension orale et de conversation. Un rythme soutenu pour quelqu'un qui jongle déjà avec beaucoup d'autres choses, mais une discipline que j'ai voulu m'imposer.
+Les cours se déroulaient en groupe, avec des exercices de vocabulaire, de compréhension orale et de conversation. Les cours se déroulaient tous les jours par demi-journées de 4,5 heures de cours. Ca faisait depuis mes secondaires que je n'avais plus pratiqué le néerlandais donc j'étais bien rouillé mais avec cette immersion j'ai assez vite retrouvé mes repères.
 
-Apprendre une langue, c'est aussi apprendre à être à l'aise dans l'inconfort — exactement comme quand on découvre une nouvelle technologie. Cette formation m'a confirmé que je suis capable de m'adapter rapidement à un nouvel environnement, qu'il soit linguistique ou technique.`,
+Avoir des cours tous les jours m'a permis de garder un rythme aussi car je n'avais que très peu d'heures à l'EPHEC et m'a permis de garder un certain environnement scolaire.`,
     images: [
       "/images/projects/cours/cours1.jpg",
       "/images/projects/cours/cours2.jpg",
@@ -144,11 +144,15 @@ Apprendre une langue, c'est aussi apprendre à être à l'aise dans l'inconfort 
     domaine: "Expérience",
     heuresValorisables: 10,
     heuresReelles: 400,
-    content: `En parallèle de mes études, j'ai travaillé comme mannequin pour l'agence Ford Models, participant à différents défilés et fashion weeks à Paris et à Milan. Une expérience radicalement différente de mon quotidien de développeur, mais qui partage plus de points communs qu'on ne le croit.
+    content: `En parallèle de mes études, j'ai travaillé comme mannequin pour l'agence Ford Models, participant à différents défilés et fashion weeks à Paris et à Milan. Une expérience radicalement différente de mon quotidien de développeur et qui m'a fait découvrir les mécanismes d'un monde radicalement différent de l'informatique.
 
-Les castings, les shootings et les défilés imposent une rigueur sur la ponctualité, la présentation et la gestion du stress en conditions réelles. On évolue dans un environnement où tout va vite, où les imprévus sont fréquents, et où il faut rester professionnel quoi qu'il arrive — des réflexes que je retrouve aussi en production.
+J'ai participé à plusieurs Fashion Weeks à Paris et découvert un monde auquel je ne prêtais pas attention auparavant : celui des maisons de luxe. J'ai enchaîné des dizaines de castings, voyagé dans tout Paris et à Milan, et rencontré des personnes formidables (et d'autres un peu moins).
 
-C'est aussi une expérience qui m'a ouvert à d'autres milieux, d'autres façons de travailler, et à une forme de créativité que le monde du développement n'offre pas toujours. Je ne regrette pas d'avoir dit oui.`,
+Une chose est claire : cette expérience hors du commun m'a fait grandir. Elle m'a énormément apporté en termes de confiance en soi, de gestion du stress, mais aussi d'acceptation de l'échec. Car oui, les annulations de dernière minute sont fréquentes. Je fais souvent le parallèle avec le monde du travail, où je devrai faire face à des refus lorsque je postulerai ou proposerai mes projets.
+
+C'est aussi une expérience qui m'a ouvert à d'autres milieux, d'autres façons de travailler, et à une forme de créativité. Malheureusement les plus grosses periodes de travail se déroulaient toujours lors des examens, malgré la tentation, j'ai toujours privilégié les études. Je ne regrette pas d'avoir pris cette décision :).
+
+Voici quelques images d'un de mes boulots pour la marque Hed Mayner en 2024:`,
     images: [
       "/images/projects/ford_models/model1.jpg",
       "/images/projects/ford_models/model2.jpg",
