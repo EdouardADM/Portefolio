@@ -47,8 +47,23 @@ const projectsData: Record<string, ProjectPageData> = {
     domaine: "Stage",
     heuresValorisables: 10,
     heuresReelles: 400,
-    content: "",
-    images: [],
+    content: `Lors du second semestre de l'année passée, j'ai effectué un stage personnel en entreprise d'avril à juin 2025. J'ai ainsi intégré l'équipe de Ataya & Partners, une petite structure d'une dizaine de personnes, soudée et conviviale.
+
+Ataya & Partners est un cabinet de conseil belge spécialisé en cybersécurité, gouvernance IT, protection des données (RGPD) et transformation digitale.
+
+Lors de mon stage, je n'ai pas beaucoup pratiqué d'informatique "technique" : j'ai principalement réalisé quelques pages web et formulaires, mais ce n'était pas l'objectif principal du stage. J'ai surtout appris à propos des différentes lois et directives qui encadrent les entreprises, notamment la nouvelle directive NIS2 récemment entrée en vigueur.
+
+Ce stage était ma toute première immersion professionnelle en entreprise. J'y ai découvert les daily meetings, les interactions avec les collègues et les time sheets (mon cauchemar). Grâce à une équipe vraiment sympathique, j'ai pu voir un large éventail de leurs activités : audits de sécurité, rédaction de documents de conseil ou encore préparation de conférences.
+J'ai même eu l'occasion de participer à mon premier team building ! 
+
+Cette expérience a été très enrichissante pour moi et m'a permis de découvrir l'informatique sous un autre angle, qu'on ne voit pas forcément quand on est uniquement dans la technique. 
+    `,
+    images: [
+      "/images/projects/stage/a&p1.jpg",
+      "/images/projects/stage/a&p2.jpg",
+      "/images/projects/stage/a&p3.jpg",
+      "/images/projects/stage/a&p4.jpg",
+    ],
   },
   "conferences": {
     title: "Conférences",
@@ -123,7 +138,13 @@ Ce que j'en retiens, c'est la valeur du travail concret et la satisfaction d'une
     domaine: "Développement",
     heuresValorisables: 10,
     heuresReelles: 30,
-    content: "Pour la création de ce portefolio j'ai voulu creer une vittrine que me représente. Un dis",
+    content: `Pour la création de ce portefolio j'ai voulu créer une vitrine que me représente. 
+    Ce projet m'a forcé à porter toutes les casquettes : designer, dev front, rédacteur, déployeur. J'ai itéré sur le design system avant d'écrire une ligne de code — typo, palette, ombres dures, grille asymétrique. 
+    Puis j'ai construit composant par composant, en gardant le scope serré et les commits propres.
+
+    Côté technique, j'ai creusé Next.js 16 en mode export statique, dompté Tailwind v4 et ses tokens, et géré le déploiement bout-en-bout, j'ai pris un nom de domaine sur infomaniak et déployé mon portfolio sûr Vercel.
+    
+    Au-delà du code, ce portfolio m'a appris à parler de mon propre travail — exercice plus difficile que prévu, mais c'est toujours chouette de se rappeler de toutes ces expériences enrichissantes. Le résultat me ressemble, un design propre et clair avec une petite touche artistique 🖌️.`,
     images: [],
   },
   "neerlandais": {
