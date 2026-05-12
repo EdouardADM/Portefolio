@@ -55,8 +55,8 @@ const projectsData: Record<string, ProjectPageData> = {
     subtitle: "Participations à différentes conférences",
     domaine: "Conférences",
     heuresValorisables: 10,
-    heuresReelles: 10,
-    content: `J'ai eu l'occasion de participer à deux événements professionnels dans le domaine de la cybersécurité et de la gouvernance IT : le salon de la Cybersécurité Belgium 2025 et le GRC Be Connected.
+    heuresReelles: 15,
+    content: `J'ai eu l'occasion de participer à deux événements professionnels dans le domaine de la cybersécurité et de la gouvernance IT : le salon de la Cybersécurité Belgium 2025 et le GRC Be Connected ainsi que le Tech & Cyber Job Fair organisé à Solvay.
 
 Le Salon de la Cybersécurité Belgium 2025 m'a permis de découvrir les tendances actuelles du secteur — des solutions de protection des infrastructures aux enjeux liés à l'intelligence artificielle. J'y ai rencontré des professionnels du domaine et assisté à plusieurs démonstrations techniques qui m'ont donné une vision concrète des défis de sécurité auxquels les entreprises font face aujourd'hui.
 
@@ -68,7 +68,6 @@ Le GRC Be Connected est un événement centré sur la Gouvernance, la Gestion de
       "/images/projects/conferences/conf_grc.jpg",
       "/images/projects/conferences/conf_grc1.jpg",
       "/images/projects/conferences/conf_grc2.jpg",
-      "/images/projects/conferences/conf_grc3.jpg",
       "/images/projects/conferences/conf_11.jpg",
       "/images/projects/conferences/conf_12.jpg",
       "/images/projects/conferences/conf_13.jpg",

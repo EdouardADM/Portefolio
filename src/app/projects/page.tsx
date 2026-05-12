@@ -76,11 +76,11 @@ const projects: Project[] = [
     subtitle: "Participations à différentes conférences",
     description:
       "Conférences suivies dans le cadre de ma vie professionnelle.",
-    tags: ["CCB", "Soft skills"],
+    tags: ["CCB", "Soft skills", "Veille"],
     status: "Terminé",
     domaine: "Conférences",
     heuresValorisables: 10,
-    heuresReelles: 10,
+    heuresReelles: 15,
     hasPage: true,
   },
   {
@@ -88,7 +88,7 @@ const projects: Project[] = [
     title: "Build PC",
     subtitle: "Montage de différents pc perso & pour la famille",
     description:
-      "Montage et optimisation de différents PC taillé pour le développement et/ou le gaming. Choix des composants et montage pour moi-même et membre de ma famille.",
+      "Montage et optimisation de différents PC taillé pour le développement et le gaming. Choix des composants et montage pour moi-même et membre de ma famille.",
     tags: ["Hardware", "Perso"],
     status: "Terminé",
     domaine: "Perso",
@@ -101,7 +101,7 @@ const projects: Project[] = [
     title: "Vendanges",
     subtitle: "Job d'été dans un domaine viticole",
     description:
-      "Participation aux vendanges 2025 à Viviers, une pause physique et une expérience humaine loin des écrans. Travail d'équipe, rythme de la nature, et travail phisique.",
+      "Participation aux vendanges 2025 à Viviers, une pause physique et une expérience humaine loin des écrans. Travail d'équipe, rythme de la nature, et travail physique.",
     tags: ["Expérience", "Perso", "Job"],
     status: "Terminé",
     domaine: "Job",

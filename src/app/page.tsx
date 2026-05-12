@@ -29,7 +29,7 @@ const featuredProjects = [
     status: "Terminé",
     domaine: "Stage",
     heuresValorisables: 10,
-    heuresReelles: 400,
+    heuresReelles: 350,
   },
   {
     slug: "build-pc",
