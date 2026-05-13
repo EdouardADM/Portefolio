@@ -140,14 +140,6 @@ export default function HomePage() {
                 En dehors du code je fais différentes activitées comme du piano, de l'escalade, du sim racing et de temps en temps je pose pour différentes marques de luxe.
               </p>
 
-              <div className="pt-2">
-                <Link
-                  href="/about/"
-                  className="inline-flex items-center gap-2 font-bold uppercase tracking-widest text-sm text-accent hover:underline underline-offset-4"
-                >
-                  En savoir plus <ArrowRight size={14} />
-                </Link>
-              </div>
             </div>
           </div>
         </div>
