@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CritEat — Politique de confidentialité</title>
+  <style>
+    :root { --accent: #E8472A; --ink: #1a1a1a; --text: #444; --muted: #9CA3AF; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      line-height: 1.6;
+      background: #fff;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+    h1 { color: var(--ink); font-size: 26px; margin: 0 0 4px; }
+    .updated { color: var(--muted); font-style: italic; font-size: 13px; margin: 0 0 28px; }
+    h2 { color: var(--ink); font-size: 18px; margin: 32px 0 8px; }
+    p { margin: 0 0 12px; }
+    ul { margin: 0 0 12px; padding-left: 0; list-style: none; }
+    li { position: relative; padding-left: 20px; margin: 0 0 8px; }
+    li::before { content: "•"; color: var(--accent); position: absolute; left: 4px; }
+    a { color: var(--accent); }
+    footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #eee; color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Politique de confidentialité — CritEat</h1>
+    <p class="updated">Dernière mise à jour : 30 mai 2026</p>
+
+    <h2>1. Responsable du traitement</h2>
+    <p>Le responsable du traitement des données est Édouard Adam, dans le cadre du projet CritEat.</p>
+    <p>Pour toute question relative à tes données ou pour exercer tes droits, tu peux nous contacter à l'adresse <a href="mailto:criteatsupport@gmail.com">criteatsupport@gmail.com</a>, ou directement depuis l'écran « Nous contacter » de l'application.</p>
+
+    <h2>2. Données collectées</h2>
+    <p>Nous traitons trois catégories de données :</p>
+    <ul>
+      <li>Données que tu fournis : adresse email, mot de passe (stocké haché, jamais en clair), nom d'utilisateur, photo de profil (avatar), biographie, préférences alimentaires.</li>
+      <li>Données générées par ton usage : avis et photos publiés, votes, relations de suivi, score de Karma.</li>
+      <li>Données techniques : identifiant utilisateur unique, jetons de session (JWT) stockés de façon chiffrée sur ton appareil.</li>
+    </ul>
+
+    <h2>3. Finalités et base légale</h2>
+    <p>Tes données sont traitées pour te permettre de créer un compte, publier et consulter des avis, interagir avec la communauté et personnaliser ton expérience.</p>
+    <p>La base légale est ton consentement (article 6.1.a du RGPD), recueilli explicitement lors de l'inscription et de la connexion, ainsi que l'exécution du service que tu demandes (article 6.1.b).</p>
+
+    <h2>4. Sous-traitants</h2>
+    <p>Pour fonctionner, l'application s'appuie sur des prestataires techniques qui peuvent traiter certaines données pour notre compte :</p>
+    <ul>
+      <li>Supabase — hébergement de la base de données, authentification et stockage des fichiers.</li>
+      <li>Expo — distribution de l'application et services associés.</li>
+      <li>Google — distribution via le Google Play Store.</li>
+      <li>Apple — distribution via l'App Store / TestFlight.</li>
+      <li>OpenFreeMap — fonds cartographiques.</li>
+    </ul>
+
+    <h2>5. Sécurité</h2>
+    <p>Les mots de passe sont hachés, les communications chiffrées (HTTPS), et la session est conservée dans le coffre sécurisé de ton appareil (Keychain iOS / Keystore Android).</p>
+    <p>L'accès aux données est restreint par des règles de sécurité au niveau de chaque ligne (Row Level Security).</p>
+
+    <h2>6. Tes droits</h2>
+    <p>Tu peux exercer à tout moment tes droits depuis l'écran « Mes données » de l'application :</p>
+    <ul>
+      <li>Accès et portabilité (Art. 15 &amp; 20) : exporter une copie de tes données au format JSON.</li>
+      <li>Rectification (Art. 16) : corriger tes informations personnelles.</li>
+      <li>Opposition et retrait du consentement (Art. 21 &amp; 7.3) : revenir sur ton acceptation à tout moment.</li>
+      <li>Effacement (Art. 17) : supprimer définitivement ton compte et tes données.</li>
+      <li>Limitation du traitement et autres droits : via le moyen de contact ci-dessus.</li>
+    </ul>
+
+    <h2>7. Conservation</h2>
+    <p>Tes données sont conservées tant que ton compte est actif. En cas de suppression, elles sont effacées de façon permanente dans un délai maximal de 30 jours.</p>
+
+    <h2>8. Contact et réclamation</h2>
+    <p>Nous répondons à toute demande dans un délai d'un mois (article 12.3 du RGPD). Contact : <a href="mailto:criteatsupport@gmail.com">criteatsupport@gmail.com</a>.</p>
+    <p>Si tu estimes que tes droits ne sont pas respectés, tu peux introduire une réclamation auprès de l'Autorité de protection des données (APD), <a href="https://www.autoriteprotectiondonnees.be" target="_blank" rel="noopener">autoriteprotectiondonnees.be</a>.</p>
+
+    <footer>CritEat — Politique de confidentialité · Contact : criteatsupport@gmail.com</footer>
+  </main>
+</body>
+</html>
